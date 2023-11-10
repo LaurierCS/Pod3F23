@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import CourseTable from './components/Course Table/CourseTable';
+import Header from './components/Header/Header';
+import Footnote from './components/Footer/Footer';
 import './App.css';
+
+      {/* THIS IS THE HEAD PAGE -- WHERE YOU IMPORT ALL THE COMPONENTS IN */}
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* IMPORTS the course table component into the main react file */}
+      <Header/>
+      <CourseTable/>
+      <Footnote/>
     </div>
   );
 }
