@@ -1,0 +1,61 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+body{
+  background-color: rgb(219, 228, 234); /* Change the background color to pink */
+}
+
+
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #faf8f8;
+  color: #eccc18; 
+  padding: 60px;
+}  */
+
+/* Style the heading (course list) */
+h1 {
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #6785b3;
+  margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #040404; 
+}
+
+th, td {
+  border: 1px solid #040404; 
+  padding: 10px;
+  text-align: left;
+}
+
+/* top leading column */
+th{
+  background-color: #a1b7d7;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #7ca3d2;
+}
+
+
+/* Add a hover effect for table rows */
+tr:hover {
+  background-color: #d6d9daf0;
+}
+
+tbody tr {
+  background-size: cover;
+}
+
+
+
+

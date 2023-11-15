@@ -1,0 +1,19 @@
+/* CSS for Header */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+
+
+
+footer {
+  color: #5093c9; 
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Signika Negative', sans-serif;
+  position:absolute;
+  bottom:0;
+  margin-left: 10px;
+}
+
+    /* I used this to make the footer at the bottom of the page, it might be ineffective tho*/
