@@ -5,7 +5,9 @@
 
 
 footer {
-  color: #5093c9; 
+  display:flex;
+  margin-left:10px;
+  color: #616161; 
   padding: 2px;
   text-align: center;
   font-weight: bold;
@@ -13,7 +15,18 @@ footer {
   font-family: 'Signika Negative', sans-serif;
   position:absolute;
   bottom:0;
-  margin-left: 10px;
+}
+
+.pods{
+  margin-right:10px
+}
+
+.About{
+  margin-right:10px
+}
+
+.Privacy{
+
 }
 
     /* I used this to make the footer at the bottom of the page, it might be ineffective tho*/

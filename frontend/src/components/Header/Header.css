@@ -1,25 +1,25 @@
 /* CSS for Header */
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(219, 228, 234);
-  }
 
+a{
+  text-decoration: none;
+}
 
 header {
-    background-color: #3A64A7; /* Dark blue background */
+    background-color: #E4E9F9; /* Dark blue background */
     color: #fff; /* Text color */
     padding: 10px 0;
     padding-left: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
   }
+
+ 
   
     /* LOGO WORDS  */
   .WLUGO {
+    color: #94AAED;
     font-size: 24px;
     font-weight: bold;
     font-family: 'Signika Negative', sans-serif;
@@ -29,6 +29,14 @@ header {
   .WLUGO:hover{
     color: #a3bee6; /* Adjust the font size as needed */
     cursor: pointer;
+  }
+
+  .GO{
+    color:blue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+    
   }
   
   /* .logo {
@@ -44,9 +52,10 @@ header {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 850px; /* TAKE OUT IF IT AFFECTS THE SCREEN*/
-
+    margin-left: 925px; /* TAKE OUT IF IT AFFECTS THE SCREEN*/
   }
+
+
   
   nav ul li {
     margin-right: 30px; /*space inbetween the words (login and signup)*/
@@ -59,7 +68,7 @@ header {
   
   nav ul li a {
     text-decoration: none;
-    color: #fff; /* Text color for links */
+    color: #616161; 
     font-weight: bold;
   }
   

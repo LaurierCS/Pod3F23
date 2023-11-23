@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './Header.css'; // Import the CSS file
 
 
@@ -13,16 +14,20 @@ const Header = () => {
 
   return (
     <header>
-        <div className="WLUGO">
-            <span>WLUGO</span>
+        <div className='navname'>
+          <Link to="/">
+            <span className="WLUGO">wlu</span>
+            <span className="GO">go</span>
+          </Link>
         </div>
     <nav>
-      <ul>
-        <li><a href="#">Login</a></li>
-        <li><a href="#">Sign Up</a></li>
+      <ul className='navlist'>
+        <li className='login'><Link to="/login">Login</Link></li>
+        <li className='signup'><Link to="/course">Course</Link></li>
+        <li className='signup'><Link to="/reviews">Reviews</Link></li>
       </ul>
     </nav>
-    <form onSubmit={handleSearch}>
+    {/* <form onSubmit={handleSearch}>
         <input
           type="text"
           placeholder="Search..."
@@ -30,7 +35,7 @@ const Header = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button type="submit">Search</button>
-      </form>
+      </form> */}
   </header>
   )
 }
