@@ -1,32 +1,40 @@
-/* CSS for Header */
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
-
-
-
-
+/* Footer.css */
 footer {
-  display:flex;
-  margin-left:10px;
-  color: #616161; 
-  padding: 2px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #E4E9F9; /* Example background color */
+  color: #616161;
   font-weight: bold;
   font-size: 20px;
   font-family: 'Signika Negative', sans-serif;
-  position:absolute;
-  bottom:0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.pods{
-  margin-right:10px
+/* Left side content */
+.footer-left {
+  display: flex;
+  align-items: center;
 }
 
-.About{
-  margin-right:10px
+/* Right side content */
+.footer-right {
+  display: flex;
+  align-items: center;
 }
 
-.Privacy{
-
+.footer-right img {
+  margin-left: 10px; /* Space out the images */
+  width: 30px; /* Adjust the size as needed */
+  height: auto; /* Maintain the aspect ratio */
 }
 
-    /* I used this to make the footer at the bottom of the page, it might be ineffective tho*/
+/* Adjustments for the paragraph tags if necessary */
+.pods, .About, .Privacy {
+  margin-right: 10px;
+}
