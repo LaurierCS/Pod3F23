@@ -1,0 +1,25 @@
+.card {
+    border: 2px solid #0099ff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    width: 400px; /* Set a fixed width or use max-width for responsiveness */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+    margin: auto; /* Center the card in the parent element */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+  }
+  
+  .input-box {
+    width: 100%; /* Input takes up all available width of the parent */
+    height: 150px; /* Set a fixed height for the input box */
+    border: 1px solid #0099ff; /* Blue border */
+    border-radius: 4px; /* Slightly rounded corners for the input box */
+    padding: 10px; /* Padding inside the input box */
+    font-size: 16px; /* Increased font size for better readability */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+  }
+  
+  .input-box:focus {
+    outline: none; /* Removes the default focus outline */
+    border-color: #0077cc; /* Darker blue border on focus */
+  }
+  

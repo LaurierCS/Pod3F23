@@ -1,0 +1,80 @@
+.card-component {
+    background-color: #ABA9FE; /* Replace with the actual background color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .score-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .score-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5976D6; /* Replace with the actual color */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .cp {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .stats-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .stat {
+    background-color: #4971FF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .average-grade {
+    background-color: #A4B8F8; 
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    text-align: center;
+    margin-left:20px;
+    margin-right:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .average{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+  }
+
+ 
+
+  .score-label{
+    color: #4C5D95;
+    font-size: 25px;
+  }
+
+  .score{
+    color:#2543A4;
+    font-size:50px
+  }
+  

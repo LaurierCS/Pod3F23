@@ -1,7 +1,7 @@
 .review-card {
     display: flex;
     align-items: center;
-    background-color: grey;
+    background-color: #EDEDED;
     border-radius: 8px;
     padding: 16px;
     margin: 16px;

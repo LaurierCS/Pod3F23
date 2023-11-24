@@ -1,3 +1,7 @@
-body{
-    background-color: rgb(228, 233, 249);
-}
+body {
+    min-height: 100vh; /* Minimum height to fill the full viewport height */
+    background-image: url('../src/assets/pods\ background.PNG'); /* Path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+  }
