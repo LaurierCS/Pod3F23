@@ -3,8 +3,9 @@ import LoginForm from '../components/LoginForm/LoginForm'
 
 const Login = () => {
   return (
-    <div>
+    <div> 
       <h1>Login Page</h1>
+      <LoginForm/>
     </div>
   )
 }
