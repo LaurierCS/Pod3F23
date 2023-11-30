@@ -1,10 +1,9 @@
 import React from 'react'
-import ReviewCard from '../components/ReviewCard/ReviewCard'
+import ReviewCard from '../components/ReviewCard'
 
 const Reviews = () => {
   return (
     <div>
-      <h1>Reviews Page</h1>
       <ReviewCard/>
     </div>
   )
