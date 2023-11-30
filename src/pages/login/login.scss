@@ -1,0 +1,95 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login {
+    height: 100vh;
+    background: linear-gradient(rgba(125, 195, 220, 0.374), rgba(0, 0, 0, 0.578)), url('https://images.adsttc.com/media/images/5ad0/8422/f197/ccc2/b400/0295/large_jpg/WLU_Lazaridis_exterior_south_elevation.jpg?1523614734') center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 200px white;
+    
+    
+
+
+    .card {
+        line-height: 100px;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(36, 32, 32, 0.632);
+        min-height: 80%;
+        padding-bottom: 10px;
+        
+        
+
+        .left {
+            width: 50%;
+
+            h1 {}
+
+            p {}
+
+            span {}
+
+            button {}
+
+            
+        }
+
+        .right {
+            
+            h1 {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                padding: 10px 0 10px 0;
+                font-weight: 100;
+            }
+
+            form {
+                
+            }
+            ::placeholder {
+                color: white;
+
+            }
+            input {
+                height: 30px;
+                width: 87%;
+                display:flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                padding: 0 0 0 20px;
+                background: rgba(255,255,255,0.15);
+                color: white;
+            }
+
+            button {
+                height: 30px;
+                width: 98%;
+                display:flex;
+                border: none;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                border-radius: 8px;
+                padding: 0 0 0 20px;
+            }
+
+
+
+
+        }
+    }
+}

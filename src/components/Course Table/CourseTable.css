@@ -1,0 +1,113 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #faf8f8;
+  color: #eccc18; 
+  padding: 60px;
+}  */
+
+/* Style the heading (course list) */
+h1 {
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #93abce;
+  margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border: 0px solid #040404; 
+  border-radius: 6px;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+
+th, td {
+  border: 0px solid #040404; 
+  padding: 10px;
+  text-align: left;
+  border-radius: 6px;
+}
+
+/* top leading column */
+th{
+  background-color: #a1b7d7;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #7ca3d2;
+}
+
+
+/* Add a hover effect for table rows */
+td:hover {
+  background-color: #d6d9daf0;
+}
+
+tbody tr {
+  background-size: cover;
+}
+
+
+div.allCourses {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+div.headline {
+  display:flex;
+  min-width: 150%;
+  height: 75px;
+  flex-direction: row;
+  background-color:#3a4b64;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left:5%;
+  margin-left: 10%;
+  margin-right:10px;
+  padding-right: 75%;
+
+
+  white-space:nowrap;
+}
+
+div.coursePill {
+  display:flex;
+  flex-direction: row;
+  min-width: 30%;
+  max-width: 30%;
+  height: 50px;
+  background-color:#606a78;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left:5%;
+  margin-left: 120px;
+  padding-right: 100px;
+  margin-right: 100px
+}
+
+p {
+  display:block;
+  height:auto;
+  width:auto;
+  margin-left: 15%;
+
+}
+
+
