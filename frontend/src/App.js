@@ -1,34 +1,48 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Footnote from './components/Footer/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
-
+import Course from './pages/Course';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Reviews from './pages/Reviews';
-import Course from './pages/Course';
+import Signup from './pages/Signup';
+import Table from './pages/Table';
+
+import DarkMode from './components/DarkMode';
+
+
+
+
+
+
 
 
 {/* THIS IS THE HEAD PAGE -- WHERE YOU IMPORT ALL THE COMPONENTS IN */}
 
 
 function App() {
+  DarkMode();
   return (
     <Router>
-      <div className="App">
+      <div className="App min-h-screen">
         <Header/>
-        {/* IMPORTS the course table component into the main react file */}
+        <DarkMode/>
         <Routes>
           <Route index path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/course' element={<Course/>}/>
           <Route path='/reviews' element={<Reviews/>}/>
+          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/table' element={<Table/>}/>
         </Routes>
 
+
+
       </div>
-      <Footnote/>
+      <Footer/>
     </Router>
   );
 }
