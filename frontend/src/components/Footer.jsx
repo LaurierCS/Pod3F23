@@ -1,16 +1,14 @@
 import React from "react";
-import discord from '../assets/discord.png';
-import instagram from '../assets/instagram.png';
-import mail from '../assets/mail.png'
+import { Link } from "react-router-dom";
 import SocialMediaIcons from "./SocialMediaIcons";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <footer className="footer items-center p-4">
         
         <div className="flex text-lg font-semibold">
-          <p>About</p>
+          <Link to="/about"><p>About</p></Link>
           <p>Privacy</p>
         </div>
 

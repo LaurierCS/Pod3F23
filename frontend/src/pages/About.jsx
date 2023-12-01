@@ -1,35 +1,94 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
     <div>
-        <p>
-        Welcome to WLUGO!
-
-WLUGO is your go-to course exploration platform, crafted specifically for the students at Wilfrid Laurier University. Our aim is straightforward: we provide a platform for honest, unfiltered feedback on courses and instructors.
-
-Ever had a less-than-stellar lecture? Share your story. Encountered an inspiring professor? We’re all ears. Stumbled upon a course that didn’t meet your expectations? Your review could be a beacon for your peers.
-
-Our pledge is to bolster the decision-making of over 30,000 students each month with real experiences to guide their course selections, steering them towards the gems and away from the duds.
-
-Our Story
-
-Conceived as a Capstone Project by four passionate students from the Computer Science program, WLUGO was born to fill a critical void: accessible, comprehensive information about university courses. Since our launch in 2012, we’ve become a vital tool in course planning.
-
-Here’s a thought from Alex Tremblay, one of our founders, about the course selection process before WLUGO:
-
-"Choosing courses was like solving a complex puzzle without seeing the big picture. The official course listings were overwhelming and lacked firsthand student insights. Our peers' advice was invaluable, yet sporadic and hard to gather."
-
-Curious for more? Dive into our blog for the full story of how four students turned a bold concept into a thriving reality.
-
-2019 marked the advent of WLUGO 2.0, introducing a sleeker interface, faster performance, and new features focused on what students truly value. While we’ve evolved technologically, our dedication to the Laurier student body remains unwavering.
-
-Warm regards,
-
-The WLUGO Team
-        </p>
+<section class="relative pt-16 bg-blueGray-50">
+<div class="container mx-auto">
+  <div class="flex flex-wrap items-center">
+    <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-78">
+      <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-500">
+        <img alt="..." src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=700&amp;q=80" class="w-full align-middle rounded-t-lg"></img>
+        <blockquote class="relative p-8 mb-4">
+          <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="absolute left-0 w-full block h-95-px -top-94-px">
+            <polygon points="-30,95 583,95 583,65" class="text-pink-500 fill-current"></polygon>
+          </svg>
+          <h4 class="text-xl font-bold text-white">
+            Great for your awesome project
+          </h4>
+          <p class="text-md font-light mt-2 text-white">
+            Putting together a page has never been easier than matching
+            together pre-made components. From landing pages presentation
+            to login areas, you can easily customise and built your pages.
+          </p>
+        </blockquote>
+      </div>
     </div>
-  )
-}
 
-export default About
+    <div class="w-full md:w-6/12 px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-6/12 px-4">
+          <div class="relative flex flex-col mt-4">
+            <div class="px-4 py-5 flex-auto">
+              <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <i class="fas fa-sitemap"></i>
+              </div>
+              <h6 class="text-xl mb-1 font-semibold">CSS Components</h6>
+              <p class="mb-4 text-blueGray-500">
+                Notus JS comes with a huge number of Fully Coded CSS
+                components.
+              </p>
+            </div>
+          </div>
+          <div class="relative flex flex-col min-w-0">
+            <div class="px-4 py-5 flex-auto">
+              <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <i class="fas fa-drafting-compass"></i>
+              </div>
+              <h6 class="text-xl mb-1 font-semibold">
+                JavaScript Components
+              </h6>
+              <p class="mb-4 text-blueGray-500">
+                We also feature many dynamic components for React, NextJS,
+                Vue and Angular.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-6/12 px-4">
+          <div class="relative flex flex-col min-w-0 mt-4">
+            <div class="px-4 py-5 flex-auto">
+              <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <i class="fas fa-newspaper"></i>
+              </div>
+              <h6 class="text-xl mb-1 font-semibold">Pages</h6>
+              <p class="mb-4 text-blueGray-500">
+                This extension also comes with 3 sample pages. They are
+                fully coded so you can start working instantly.
+              </p>
+            </div>
+          </div>
+          <div class="relative flex flex-col min-w-0">
+            <div class="px-4 py-5 flex-auto">
+              <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                <i class="fas fa-file-alt"></i>
+              </div>
+              <h6 class="text-xl mb-1 font-semibold">Documentation</h6>
+              <p class="mb-4 text-blueGray-500">
+                Built by developers for developers. You will love how easy
+                is to to work with Notus JS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+    
+  );
+};
+
+export default About;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="navbar bg-neutral">
+    <div className="navbar ">
       {/* bg color is E4E9F9*/}
   
     <div className="flex-1 text-3xl font-semibold ml-5">
