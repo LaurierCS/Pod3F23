@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const LoginForm = () => {
   return (
     <div>
-      <div class="h-screen bg-gray-50 flex flex-col justify-center items-center">
+      <div class="h-screen  flex flex-col justify-center items-center">
         <div class="bg-white border border-gray-300 w-80 py-8 flex items-center flex-col mb-3 rounded-md">
           <h1 className="text-xl font-semibold">Log in and Leave a review!</h1>
           <form class="mt-8 w-64 flex flex-col">

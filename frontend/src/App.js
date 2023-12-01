@@ -10,6 +10,8 @@ import Login from './pages/Login';
 import Reviews from './pages/Reviews';
 import Signup from './pages/Signup';
 import Table from './pages/Table';
+import About from './pages/About';
+import AddReviewForm from './components/AddReviewForm';
 
 import DarkMode from './components/DarkMode';
 
@@ -27,7 +29,7 @@ function App() {
   DarkMode();
   return (
     <Router>
-      <div className="App min-h-screen">
+      <div className="App min-h-screen font-roboto">
         <Header/>
         <DarkMode/>
         <Routes>
@@ -37,6 +39,9 @@ function App() {
           <Route path='/reviews' element={<Reviews/>}/>
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/table' element={<Table/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/addreview' element={<AddReviewForm/>}/>
+
         </Routes>
 
 

@@ -4,7 +4,7 @@ const ReviewCard = () => {
   const [review, setReview] = useState("");
 
   return (
-    <div className="grid grid-cols-2 gap-8 p-8  text-white mt-20">
+    <div className="grid grid-cols-2 gap-8 p-8   mt-20">
       {/* Left column for review submission */}
       <div>
         <p className="text-3xl mb-4">Like our services!!, Please Rate Us!!!</p>
